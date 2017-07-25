@@ -2,3 +2,181 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  background-color: #E9EBEE;
+  font-family: arial;
+}
+
+header {
+  background-color: #3B5998;
+  height: 90px;
+  padding: 0 150px;
+}
+
+header figure {
+  display: inline-block;
+  height: 90px;
+  width: 240px;
+}
+
+header figure img {
+  width: 100%;
+}
+
+#login {
+  display: inline-block;
+  float: right;
+}
+#login div {
+  display: inline-block;
+  height: 60px;
+  vertical-align: top;
+}
+
+#login div label {
+  color: white;
+  display: block;
+  font-size: 12px;
+  margin: 15px 0 4px 0;
+}
+
+#login div input {
+  background-color: #FAFFBD;
+  height: 20px;
+  margin: 0 12px 0 0;
+  width: 150px;
+}
+
+#login div a {
+  color: #9CB4D0;
+  display: block;
+  font-size: 12px;
+  margin-top: 6px;
+  text-decoration: none;
+}
+
+#login button {
+  background-color: #627AAC;
+  border: 1px solid #29487D;
+  color: white;
+  border-radius: 1px;
+  font-weight: 500;
+  height: 25px;
+  margin-top: 33px;
+  padding: 4px 10px;
+}
+
+main {
+  float: right;
+  padding: 0 150px;
+}
+main h1 {
+  font-size: 36px;
+  font-weight: 600px;
+  margin-top: 20px;
+}
+
+main h3 {
+  color: gray;
+  font-weight: normal;
+  padding: 10px 0;
+}
+
+
+#register input {
+  background-color: #FFFFFF;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+  color: gray;
+  font-size: 20px;
+  display: block;
+  height: 35px;
+  margin: 10px 0;
+  padding: 5px 10px;
+  width: 400px;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: gray;
+  font-size: 18px;
+  padding: 8px;
+}
+
+#register button{
+  background: linear-gradient(#88C971, #598A45);
+  border: 1px solid black;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  width: 240px;
+}
+
+#register p,
+#register hr {
+  color: gray;
+  font-size: 13px;
+  font-weight: 600;
+  margin: 10px 0;
+  width: 400px;
+}
+
+#register a {
+  color: #365899;
+  text-decoration: none;
+}
+
+#overlay {
+  background-color: black;
+  bottom: 0;
+  display: none;
+  position: absolute;
+  opacity: .7;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+#message-box {
+  background-color: transparent;
+  bottom: 0;
+  display: none;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+#message-box div {
+  background-color: white;
+  border-top: 50px solid #3B5998;
+  display: inline-block;
+  height: 100px;
+  margin: 200px auto;
+  padding: 50px;
+  width: 600px;
+}
+
+#message-box div h3 {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+#message-box button,
+#message-button-2 {
+  background-color: #3B5998;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+  margin-top: 15px;
+  padding: 10px 15px;
+  width: 150px;
+}
+
+#message-button-2 {
+  display: none;
+}
